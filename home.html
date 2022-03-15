@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toDo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Jura:wght@300&display=swap" rel="stylesheet"></head>
+<body>
+    <header>
+        <h1>Simple to do list</h1>
+    </header>
+    <div class="flex-wrapper">
+        <main>
+            <article>
+                <h2>Your next business</h2>
+                <div id="nearest"></div>
+            </article>
+        </main>
+        <aside>
+            <section>
+                <h3>to do list</h3>
+                <div id="doList">
+
+                </div>
+            </section>
+            <section>
+                <h3>add new case</h3>
+                <form class="form">
+                    <div class="formRow">
+                        <label for="addCase">Add case</label>
+                        <input type="text" id="addCase"> <br>
+                    </div>
+                    <div class="formRow">
+                        <label for="addCaseTime">Add case time</label>
+                        <input type="time" name="caseTime" id="addCaseTime"> <br>
+                    </div>
+                    <div class="formRow">   
+                        <label for="addCaseDate">Add case date</label>
+                        <input type="date" name="caseDate" id="addCaseDate"> <br>
+                    </div> 
+                    <button type="button" id="addCaseButton">Add</button>
+                    <button type="button" id="canselCaseButton">Cancel</button>
+                </form>
+            </section>
+        </aside>
+    </div>
+    <footer>
+        <p>Made by Gallko</p>
+    </footer>
+    <script src="toDo.js"></script>
+</body>
+</html>

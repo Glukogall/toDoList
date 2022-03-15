@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.flex-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.fut{
+    color: seagreen;
+}
+.lost{
+    color: brown;
+}
+.done{
+    text-decoration: line-through;
+}
+.when{
+    width: 35%;
+}
+.what{
+    width: 35%;
+}
+.row{
+    padding: 1em 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+}
+header{
+    color: rgb(231, 255, 231);
+    background-color: rgb(35, 71, 35);
+    padding: 1em;
+    margin-bottom: 1em;
+    letter-spacing: 0.2em;
+}
+footer{
+    background-color: rgb(35, 71, 35);
+    color: rgb(208, 255, 208);
+    padding: 1em;
+    margin-top: 1em;
+}
+main{
+    width: 65%;
+    padding: 1em 3em;
+    text-align: center;
+    border-right: 1px solid rgb(208, 255, 208);
+}
+h2{
+    font-family: 'Caveat', cursive;
+}
+aside{
+    width: 30%;
+}
+h3{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+.rowButton{
+    border: 1px solid rgb(151, 224, 151);
+    border-radius: 5px;
+    background-color: rgb(208, 255, 208);
+    color: rgb(35, 71, 35);
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    padding: 1em;
+    margin: 0 1em;
+}
+.rowButton:hover{
+    border: 1px solid rgb(68, 117, 68);
+    border-radius: 5px;
+    background-color: rgb(167, 233, 167);
+    color: rgb(35, 71, 35);
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    padding: 1em;
+    margin: 0 1em;
+}
+.form{
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+}
+.formRow{
+    padding: 0.5em 0;
+}
+#nearest{
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+}
+#doList{
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+}
+input{
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+}
+#addCaseButton, #canselCaseButton{
+    border: 1px solid rgb(151, 224, 151);
+    border-radius: 5px;
+    color: rgb(208, 255, 208);
+    background-color: rgb(35, 71, 35);
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    padding: 1em;
+    margin: 1em;
+    width: 40%;
+}
+#addCaseButton:hover, #canselCaseButton:hover{
+    border: 1px solid rgb(63, 122, 63);
+    border-radius: 5px;
+    color: rgb(208, 255, 208);
+    background-color: rgb(83, 134, 83);
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    padding: 1em;
+    margin: 1em;
+    width: 40%;
+}
