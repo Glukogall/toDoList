@@ -25,6 +25,9 @@
 .row{
     padding: 1em 0;
 }
+body{
+    width: 100%;
+}
 h1{
     text-align: center;
     font-family: 'Jura', sans-serif;
@@ -35,6 +38,7 @@ header{
     padding: 1em;
     margin-bottom: 1em;
     letter-spacing: 0.2em;
+    width: 100%;
 }
 footer{
     background-color: rgb(35, 71, 35);
@@ -43,7 +47,7 @@ footer{
     margin-top: 1em;
 }
 main{
-    width: 65%;
+    max-width: 65%;
     padding: 1em 3em;
     text-align: center;
     border-right: 1px solid rgb(208, 255, 208);
@@ -52,7 +56,7 @@ h2{
     font-family: 'Caveat', cursive;
 }
 aside{
-    width: 30%;
+    max-width: 50%;
 }
 h3{
     text-align: center;
@@ -118,4 +122,25 @@ input{
     padding: 1em;
     margin: 1em;
     width: 40%;
+}
+
+
+@media screen and (max-device-width: 540px){
+    .wrapper{
+        display: block;
+        padding: 2em;
+    }
+    main{
+        max-width: 100%;
+        padding: 0;
+        text-align: center;
+        border-right: none;
+    }
+    aside{
+        width: 100%;
+        max-width: 100%;
+    }
+    .row{
+        font-size: 0.7em;
+    }
 }
